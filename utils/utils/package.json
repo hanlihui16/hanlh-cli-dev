@@ -1,7 +1,7 @@
 {
-  "name": "@hanlh-cli-dev/core",
+  "name": "@hanlh-cli-dev/utils",
   "version": "1.0.1",
-  "description": "> TODO: description",
+  "description": "hanlh-cli-dev utils",
   "author": "hanlh <hanlh@cmfchina.com>",
   "homepage": "",
   "license": "ISC",
@@ -15,8 +15,5 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-    "@hanlh-cli-dev/utls": "file:../../utils/utils"
   }
 }
