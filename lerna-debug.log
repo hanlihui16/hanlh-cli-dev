@@ -1,4 +1,8 @@
-40 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
-40 error fatal: unable to access 'https://github.com/hanlihui16/hanlh-cli-dev.git/': Failed to connect to github.com port 443 after 75008 ms: Couldn't connect to server
-40 error     at makeError (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/execa/lib/error.js:60:11)
-40 error     at handlePromise (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/execa/index.js:118:26)
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/hanlihui16/hanlh-cli-dev.git/': Failure when receiving data from the peer
+15 error     at makeError (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/execa/lib/error.js:60:11)
+15 error     at module.exports.sync (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/execa/index.js:194:17)
+15 error     at Object.execSync (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/@lerna/child-process/index.js:39:16)
+15 error     at updateRemote (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (/Users/lihuihan/Desktop/study/hanlh-cli-dev/node_modules/@lerna/version/index.js:153:9)
