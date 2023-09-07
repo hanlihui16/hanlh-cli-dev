@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@hanlh-cli-dev/utls": "file:../../utils/utils",
+    "@hanlh-cli-dev/utils": "file:../../utils/utils",
     "import-local": "^3.1.0",
     "npmlog": "^7.0.1"
   },
