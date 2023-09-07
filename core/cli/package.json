@@ -23,5 +23,9 @@
     "@hanlh-cli-dev/utls": "file:../../utils/utils",
     "import-local": "^3.1.0",
     "npmlog": "^7.0.1"
+  },
+  "gitHead": "b81a9fb05cd6f23ccfc93cf1a55975f61e0964b5",
+  "publishConfig": {
+    "access": "public"
   }
 }
